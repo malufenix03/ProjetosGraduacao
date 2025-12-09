@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Labirinto.Right" size="0.055000 0.055000"/>
+        <ImageTarget name="Labirinto.Front" size="0.055000 0.055000"/>
+        <ImageTarget name="Labirinto.Back" size="0.055000 0.055000"/>
+        <ImageTarget name="Labirinto.Left" size="0.055000 0.055000"/>
+        <ImageTarget name="Labirinto.Top" size="0.055000 0.055000"/>
+        <ImageTarget name="Labirinto.Bottom" size="0.055000 0.055000"/>
+        <MultiTarget name="Labirinto">
+            <Part name="Labirinto.Left" translation="-0.027499999850988388 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Labirinto.Right" translation="0.027499999850988388 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Labirinto.Front" translation="0 0 0.027499999850988388" rotation="AD: 1 0 0 0"/>
+            <Part name="Labirinto.Back" translation="0 0 -0.027499999850988388" rotation="AD: 0 1 0 180"/>
+            <Part name="Labirinto.Top" translation="0 0.027499999850988388 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Labirinto.Bottom" translation="0 -0.027499999850988388 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
